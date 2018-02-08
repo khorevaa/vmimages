@@ -1,7 +1,7 @@
 choco install wget -y
 choco install curl -y
 
-choco install git /NoCredentialManager /NoShellIntegration /GitAndUnixToolsOnPath
+choco install git /NoCredentialManager /NoShellIntegration /GitAndUnixToolsOnPath -y
 
 refreshenv.bat
 
